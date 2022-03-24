@@ -5,7 +5,7 @@ turtle = Turtle()
 turtle.shape("turtle")
 turtle.color("green")
 
-# Draw a house
+# Draw a house 
 turtle.left(90)
 turtle.forward(100)
 turtle.right(45)
