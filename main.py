@@ -1,10 +1,12 @@
-string1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-string2 = "ABCDE"
+from turtle import * 
 
-duplicates = []
+turtle = Turtle()
+turtle.shape("turtle")
+turtle.color("green")
 
-all_combinations = []
+#Draw a pentagon 
+for i in range(5):
+    turtle.forward(100)
+    turtle.right(72)
 
-for i in string1:
-    for j in i:
-        all_combinations.append(i + j)
+mainloop()
