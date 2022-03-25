@@ -5,7 +5,7 @@ import turtle
 # Creating a turtle object(pen)
 pen = turtle.Turtle()
 pen.shape("turtle")
-pen.color('red')
+pen.color('green')
 
 # Defining a method to draw curve
 def curve():
@@ -19,7 +19,7 @@ def curve():
 def heart():
 
 	# Set the fill color to red
-	pen.fillcolor('red')
+	pen.fillcolor('green')
 
 	# Start filling the color
 	pen.begin_fill()
